@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>前端作品集 | Frontend Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-inner">
+            <a href="#hero" class="nav-logo">ZYJ.</a>
+            <ul class="nav-links">
+                <li><a href="#projects">作品</a></li>
+                <li><a href="#about">关于</a></li>
+                <li><a href="https://github.com/zyj-1102" target="_blank" rel="noopener">GitHub</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 英雄区 -->
+    <header class="hero" id="hero">
+        <div class="container hero-inner">
+            <p class="hero-greet">你好，我是</p>
+            <h1 class="hero-title">前端开发者 <span class="accent">ZYJ</span></h1>
+            <p class="hero-desc">
+                热爱用 HTML / CSS / JavaScript 构建简洁、实用的网页应用。
+                这里收录了我在 Web 开发技术课程中完成的前端作品。
+            </p>
+            <div class="hero-actions">
+                <a href="#projects" class="btn btn-primary">查看作品</a>
+                <a href="https://github.com/zyj-1102" target="_blank" rel="noopener" class="btn btn-ghost">GitHub 主页</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- 作品集 -->
+    <main>
+        <section class="section" id="projects">
+            <div class="container">
+                <div class="section-head">
+                    <h2 class="section-title">前端作品集</h2>
+                    <p class="section-sub">三个独立的前端项目，均已部署上线，可在线访问</p>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- 作品 1: 菜单搜索器 -->
+                    <article class="project-card">
+                        <a href="https://menu-search-eta.vercel.app" target="_blank" rel="noopener" class="card-thumb" style="--g1:#fff4e6;--g2:#ffe2cc;--emoji:'🍜'">
+                            <img src="img/menu-search.png" alt="菜单搜索器截图" loading="lazy" onerror="this.style.display='none'">
+                            <span class="thumb-fallback">菜单搜索器</span>
+                        </a>
+                        <div class="card-body">
+                            <div class="card-top">
+                                <h3 class="card-title">菜单搜索器</h3>
+                                <span class="card-no">01</span>
+                            </div>
+                            <p class="card-desc">实时搜索的美食菜单应用，支持分类筛选、关键词高亮与价格排序。</p>
+                            <div class="tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                            <div class="card-links">
+                                <a href="https://menu-search-eta.vercel.app" target="_blank" rel="noopener" class="link-demo">在线访问 ↗</a>
+                                <a href="https://github.com/zyj-1102/menu-search" target="_blank" rel="noopener" class="link-code">源码</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- 作品 2: 答题小游戏 -->
+                    <article class="project-card">
+                        <a href="https://quiz-game-zyj-1102.vercel.app" target="_blank" rel="noopener" class="card-thumb" style="--g1:#efeefe;--g2:#dcd6fb;--emoji:'🧠'">
+                            <img src="img/quiz-game.png" alt="答题小游戏截图" loading="lazy" onerror="this.style.display='none'">
+                            <span class="thumb-fallback">答题小游戏</span>
+                        </a>
+                        <div class="card-body">
+                            <div class="card-top">
+                                <h3 class="card-title">答题小游戏</h3>
+                                <span class="card-no">02</span>
+                            </div>
+                            <p class="card-desc">前端答题挑战游戏，含计分、进度反馈、对错高亮与结果评级。</p>
+                            <div class="tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                            <div class="card-links">
+                                <a href="https://quiz-game-zyj-1102.vercel.app" target="_blank" rel="noopener" class="link-demo">在线访问 ↗</a>
+                                <a href="https://github.com/zyj-1102/quiz-game" target="_blank" rel="noopener" class="link-code">源码</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- 作品 3: 前端注册页面 -->
+                    <article class="project-card">
+                        <a href="https://register-page-omega.vercel.app" target="_blank" rel="noopener" class="card-thumb" style="--g1:#e8f4fd;--g2:#cfe8fb;--emoji:'📝'">
+                            <img src="img/register-page.png" alt="前端注册页面截图" loading="lazy" onerror="this.style.display='none'">
+                            <span class="thumb-fallback">前端注册页面</span>
+                        </a>
+                        <div class="card-body">
+                            <div class="card-top">
+                                <h3 class="card-title">前端注册页面</h3>
+                                <span class="card-no">03</span>
+                            </div>
+                            <p class="card-desc">用户注册表单页面，包含表单结构与会话样式，注重排版与可用性。</p>
+                            <div class="tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                            </div>
+                            <div class="card-links">
+                                <a href="https://register-page-omega.vercel.app" target="_blank" rel="noopener" class="link-demo">在线访问 ↗</a>
+                                <a href="https://github.com/zyj-1102/register-page" target="_blank" rel="noopener" class="link-code">源码</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 关于 -->
+        <section class="section section-soft" id="about">
+            <div class="container about-inner">
+                <div class="about-text">
+                    <h2 class="section-title">关于我</h2>
+                    <p>
+                        我是 ZYJ，一名正在学习 Web 开发技术的学生。通过课程实践，
+                        我已掌握 HTML、CSS、JavaScript 前端三大基石，并能独立完成
+                        项目开发、Git 版本管理与 Vercel 部署上线。
+                    </p>
+                    <div class="about-skills">
+                        <span class="skill">HTML5</span>
+                        <span class="skill">CSS3</span>
+                        <span class="skill">JavaScript</span>
+                        <span class="skill">Git / GitHub</span>
+                        <span class="skill">Vercel 部署</span>
+                        <span class="skill">VS Code</span>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <span class="stat-num">3</span>
+                        <span class="stat-label">已上线项目</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-num">3</span>
+                        <span class="stat-label">GitHub 仓库</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-num">100%</span>
+                        <span class="stat-label">Vercel 部署</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <p>© 2026 ZYJ · Web 开发技术课程作品集</p>
+            <div class="footer-links">
+                <a href="https://github.com/zyj-1102" target="_blank" rel="noopener">GitHub</a>
+                <a href="https://vercel.com" target="_blank" rel="noopener">Vercel</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
